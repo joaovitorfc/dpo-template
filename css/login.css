@@ -1,0 +1,169 @@
+@import url("https://fonts.cdnfonts.com/css/segoe-ui-variable-static-display");
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: radial-gradient(50% 50% at 50% 50%, #0234B1 0%, #01164B 100%);
+    font-family: "Segoe UI Variable Static Display", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start;  
+    align-items: center;
+    width: 481px;
+    height: 635px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: rgba(19, 107, 165, 0.20);
+    box-shadow: 0px 4px 62.8px 0px rgba(0, 0, 0, 0.25);
+    animation: slideIn 0.8s ease-out forwards; 
+    
+
+}
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px); 
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); 
+    }
+}
+
+.form-logo {
+    margin-bottom: 20px;  
+}
+
+.form-logo img {
+    margin-top: 40px;
+    width: 160px;  
+    height: auto;
+}
+.square-form {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: #fff;
+    justify-content: center; 
+    align-items: center;    
+}
+
+
+.square-form label {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%; 
+    font-family: "Segoe UI Variable Static Display", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+}
+
+
+.square-form input {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 7px;
+    width: 380px;
+    height: 25px;
+    background: #F1F1F1;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: 2px solid #cccccc00;
+    transition: box-shadow 0.3s ease, border 0.3s ease; 
+    color: #01164B;
+    font-family: "Segoe UI Variable Static Display", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+
+.square-form input:focus {
+    background-color: rgb(216, 216, 216);
+    outline: none;
+}
+
+
+.square-form input:focus-visible {
+    outline: none; 
+}
+
+
+.square-form button {
+  
+    margin-top: 20px;
+    font-family: "Segoe UI Variable Static Display", sans-serif;
+    font-size: 22px; 
+    font-style: normal;
+    font-weight: 500;
+    width: 147px;
+    height: auto;
+    padding: 12px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    transition: 0.3s ease;
+}
+
+
+
+.square-form button:hover {
+    background-color: #0056b3;
+   
+}
+
+.square-form input::placeholder {
+    font-family: "Segoe UI Variable Static Display", sans-serif;
+    color: rgba(1, 22, 75, 0.631);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media (max-width: 500px) {
+    .square-form {
+        padding: 15px;
+    }
+
+    .square-form button {
+        font-size: 14px;
+    }
+}
+.info{
+    color: #FFF;
+    font-family: "Segoe UI Variable Static Display", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.info-p{
+    color: #FFF;
+text-align: center;
+font-family: "Segoe UI Variable Static Display", sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 150;
+line-height: normal;
+max-width: 280px;
+margin-top: 10px;
+}
+
