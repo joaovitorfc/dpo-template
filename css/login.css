@@ -167,3 +167,9 @@ max-width: 280px;
 margin-top: 10px;
 }
 
+.logo-project{
+    margin-top: 10px;
+    color: #FFF;
+    font-weight: 500;
+    opacity: 30%;
+}
